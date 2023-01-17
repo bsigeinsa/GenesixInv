@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GenesixInv.Views.SettingsPage"
+            Title="Configuración">
+    <ContentPage.Content>
+        <StackLayout Spacing="0">
+            <Label Text="URL del servidor"  />
+            <Entry Text="{Binding Setting.url}" d:Text="http://..."  />
+            <Label Text="URL del Fichero Zip de Articulos"  />
+            <Entry Text="{Binding Setting.urlarticulos}" d:Text="https://..."  />
+            <Label Text="Nombre del fichero de conteo" />
+            <Entry Text="{Binding Setting.ficheroconteo}"  Margin="0" />
+            <Label Text="Mascara Pesable" />
+            <Entry Text="{Binding Setting.mascara}" d:Text="Macara pesable en formato POS"  Margin="0" />
+            <Label Text="Mascara Pesable 1"  />
+            <Entry Text="{Binding Setting.mascara1}" d:Text="Macara pesable en formato POS"  Margin="0" />
+            <Label Text="Mascara Pesable 2"  />
+            <Entry Text="{Binding Setting.mascara2}" d:Text="Macara pesable en formato POS"  Margin="0" />
+            <Button x:Name="btnDownload" Text="Cargar Artículos" Clicked="btnDownload_Clicked" WidthRequest="100" Padding="10" Margin="10" CornerRadius="5" />
+            <Button x:Name="btnUpload" Text="Descargar Conteos" Clicked="btnUpload_Clicked" WidthRequest="100" Padding="10" Margin="10" CornerRadius="5" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

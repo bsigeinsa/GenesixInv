@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GenesixInv.App">
+    <!--
+        Define global resources and styles here, that apply to all pages in your app.
+    -->
+        <Application.Resources>
+        <ResourceDictionary x:Name="dictionary">
+            <Style TargetType="{x:Type Entry}">
+                <Setter Property="FontSize" Value="12"/>
+                <Setter Property="VerticalOptions" Value="End" />
+                <Setter Property="TextColor" Value="#000000"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+
+            </Style>
+            <Style TargetType="{x:Type Label}">
+                <Setter Property="FontSize" Value="12"/>
+                <Setter Property="TextColor" Value="#2f2f2f"/>
+            </Style>
+            <Style TargetType="{x:Type Button}">
+                <Setter Property="FontSize" Value="12"/>
+                <Setter Property="Padding" Value="0"/>
+
+            </Style>
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>
+

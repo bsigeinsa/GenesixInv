@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:GenesixInv.Views"
+       Title="GenesixInv"
+       x:Class="GenesixInv.AppShell">
+
+    <!--
+        The overall app visual hierarchy is defined here, along with navigation.
+    
+        https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/
+    -->
+
+
+   <FlyoutItem Title="Genesix Inventario">
+        <Tab >
+            <ShellContent  Route="main" >
+                <local:Inventario />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Configuración" Route="configuracion">
+        <Tab>
+            <ShellContent>
+                <local:SettingsPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="About">
+        <Tab>
+            <ShellContent>
+                <local:AboutPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+
+
+</Shell>
+

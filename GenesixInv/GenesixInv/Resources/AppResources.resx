@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+<data name="Grupo1" xml:space="preserve">
+	<value>Grupo 1</value>
+</data>
+<data name="Grupo2" xml:space="preserve">
+	<value>Grupo 2</value>
+</data>
+<data name="eanArticulo" xml:space="preserve">
+	<value>EAN</value>
+</data>
+<data name="Tienda" xml:space="preserve">
+	<value>Tienda</value>
+</data>
+<data name="Zona" xml:space="preserve">
+	<value>Zona</value>
+</data>
+<data name="Cantidad" xml:space="preserve">
+	<value>Cantidad</value>
+</data>
+<data name="Total" xml:space="preserve">
+	<value>Total</value>
+</data>
+<data name="codPlu" xml:space="preserve">
+	<value>Código PLU</value>
+</data>
+<data name="codInterno" xml:space="preserve">
+	<value>Interno</value>
+</data>
+<data name="Descripcion" xml:space="preserve">
+	<value>Descripción</value>
+</data>
+<data name="uniPaq" xml:space="preserve">
+	<value>Uni.Paquete</value>
+</data>
+<data name="Aceptar" xml:space="preserve">
+	<value>ok</value>
+</data>
+<data name="Error" xml:space="preserve">
+	<value>Error</value>
+</data>
+<data name="ErrorCantidad" xml:space="preserve">
+	<value>Cantidad incorrecta</value>
+</data>
+<data name="ErrorPlu" xml:space="preserve">
+	<value>Plu no encontrado</value>
+</data>
+<data name="ErrorTienda" xml:space="preserve">
+	<value>Tienda incorrecta</value>
+</data>
+<data name="ErrorZona" xml:space="preserve">
+	<value>Zona incorrecta</value>
+</data>
+
+
+</root>
+
