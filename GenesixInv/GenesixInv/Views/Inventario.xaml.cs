@@ -133,6 +133,7 @@ namespace GenesixInv.Views
         async void Cantidad_Completed(System.Object sender, System.EventArgs e)
         {
             double cant;
+            Cantidad.Text = Cantidad.Text.Replace('.', ',');
             if (Cantidad.Text.Length < 6 && double.TryParse(Cantidad.Text, NumberStyles.Any, CultureInfo.CurrentCulture, out cant))
             {
                 Total.Text = (double.Parse(viewModel.arti.unidpaquete) * cant).ToString("####.000", CultureInfo.CurrentCulture);

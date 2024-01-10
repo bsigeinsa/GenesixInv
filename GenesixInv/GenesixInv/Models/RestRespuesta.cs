@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 
 namespace GenesixInv.Models
@@ -11,6 +12,8 @@ namespace GenesixInv.Models
     {
         public string file { get; set; }
         public string fileContent { get; set; }
+        public string fileHash { get; set; }
+        public string filedate { get; set; }
 
     }
 }
